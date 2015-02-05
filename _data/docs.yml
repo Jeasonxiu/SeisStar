@@ -1,16 +1,30 @@
 - title: Workflows 
   docs:
-  - preprocessing
-  - cmt_inversion
   - inversion
+  - cmt_inversion
 
 - title: Components 
   docs:
   - solvers 
-  - seisflows
+  - preprocessing
+  - postprocessing
   - optimization
   - windows_selection
   - adjoint_sources
+
+- title: Projects
+  docs:
+  - California_tomography
+  - European_tomography
+  - China_tomography
+  - Global_tomography
+  - other_projects
+
+- title: Resources 
+  docs:
+  - seismic_data_format
+  - toolsets
+  - seisflows
 
 - title: Tutorials
   docs:
