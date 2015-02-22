@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Seismic inversion
+title: Inversion
 permalink: /docs/inversion/
 ---
 

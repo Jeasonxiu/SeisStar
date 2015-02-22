@@ -1,7 +1,7 @@
 ---
 layout: docs
-title: Adjoint sources
-permalink: /docs/adjoint_sources/
+title: Adjoint machinery
+permalink: /docs/adjoint_machinery/
 ---
 
 # Ajoint sources creation tools 
