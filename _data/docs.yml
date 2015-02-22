@@ -1,7 +1,8 @@
 - title: Workflows 
   docs:
   - inversion
-  - cmt_inversion
+  - migration
+  - source_inversion
 
 - title: Components 
   docs:
@@ -10,7 +11,7 @@
   - postprocessing
   - optimization
   - windows_selection
-  - adjoint_sources
+  - adjoint_machinery
 
 - title: Projects
   docs:
