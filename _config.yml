@@ -1,8 +1,8 @@
 # Site settings
 name: "Seis*"
-title: A seismic adjoint tomography ecosystem 
+title: A getting started page for regional-, global-, and exploration-scale seismic inversion.
 description: >
-  A seismic adjoint tomography ecosystem 
+  A getting started page for regional-, global-, and exploration-scale seismic inversion.
   baseurl: "" 
 url: "http://seisstar.github.io/SeisStar/"
 
