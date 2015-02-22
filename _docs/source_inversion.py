@@ -1,7 +1,7 @@
 ---
 layout: docs
-title: CMT inversion
-permalink: /docs/cmt_inversion/
+title: Source inversion
+permalink: /docs/source_inversion/
 ---
 
 # Source Inversion Workflow
