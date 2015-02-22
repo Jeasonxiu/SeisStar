@@ -13,19 +13,12 @@
   - windows_selection
   - adjoint_machinery
 
-- title: Projects
-  docs:
-  - California_tomography
-  - European_tomography
-  - China_tomography
-  - Global_tomography
-  - other_projects
-
 - title: Resources 
   docs:
   - seismic_data_format
   - toolsets
   - seisflows
+  - projects
 
 - title: Tutorials
   docs:
