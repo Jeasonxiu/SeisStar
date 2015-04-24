@@ -4,12 +4,18 @@ title: Postprocessing
 permalink: /docs/postprocessing/
 ---
 
-# Preprocessing packages
+The post-processing includes several operations to kernels(the kernel are calculated by the solver). Operations include: summing, smoothing and preconditioning.
 
-The preprocessing stage is done so that valid comparisons of the observed and synthetic seismograms can be made.
-Both synthetic and observed seismograms must have the correct station/event and timing information.
-Then the seismograms are cut using the same window, the instrument response is removed from the observed seismograms, the exact same filter is applied, and resampling is done to the observed and synthetic seismograms to a common sampling rate.
+After the adjoint simulations, we get kernels for diffferent events. We will conduct a series of operations to calculate the gradient. After we get the gradient, we can then enter the optimization stage.
 
-The figure below illustrates the preprocessing workflow for adjoint tomography.
+### Summing
 
-![Image of Preprocessing Workflow](/SeisStar/img/ASDF.png)
+At this step, we sum all kernels(from different events) together.
+
+### Smoothing
+
+At this step, we smooth the summed up kernels.
+
+### Preconditioning
+
+At this step, we precondition the kernels to approximate the gradient.

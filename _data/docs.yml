@@ -4,7 +4,7 @@
   - migration
   - source_inversion
 
-- title: Components 
+- title: Building Blocks
   docs:
   - solvers 
   - preprocessing

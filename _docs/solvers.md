@@ -7,7 +7,7 @@ permalink: /docs/solvers/
 # Solvers
 
 Solvers are at the core of the optimization routines.
-To perform a seismic inversion you will need a solver with forward and adjoint capabilities.
+To perform a seismic inversion you will need a solver with **forward** and **adjoint** capabilities.
 
 #### SPECFEM3D
 
@@ -19,12 +19,12 @@ The main resource is [SPECFEM3D website](http://geodynamics.org/cig/software/spe
 
 SPECFEM3D_GLOBE simulates global and regional (continental-scale) seismic wave propagation.
 
-The main resource is [SPECFEM3D GLOBE website](http://geodynamics.org/archive/software/specfem3d-globe).
+The main resource is [SPECFEM3D GLOBE website](http://geodynamics.org/cig/software/specfem3d_globe/).
 
 
 #### SPECFEM2D
 
 SPECFEM2D simulates forward and adjoint seismic wave propagation in two-dimensional acoustic, (an)elastic, poroelastic or coupled acoustic-(an)elastic-poroelastic media, with Convolution PML absorbing conditions.
 
-The main resource is [SPECFEM2D website](http://geodynamics.org/archive/software/specfem2d)
+The main resource is [SPECFEM2D website](http://geodynamics.org/cig/software/specfem2d/)
 

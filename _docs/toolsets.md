@@ -1,31 +1,32 @@
 ---
 layout: docs
-title: Tool set
+title: Toolsets
 permalink: /docs/toolsets/
 ---
 
 # Tools
 
-### Preprocessing
+#### Preprocessing
   * [SeisProc](https://github.com/wjlei1990/SeisProc) 
 
-### Solver
+#### Solver
   * [Specfem3D_globe](https://github.com/geodynamics/specfem3d_globe)
 
-### Postprocessing
+#### Postprocessing
   * [Not yet Done]()
 
-### Optimization
-  * [SeisFlow]()
+#### Optimization
+  * [SeisFlow](https://github.com/PrincetonUniversity/seisflows)
 
-### Windowing
+#### Windowing
+  * [Pyflex](https://github.com/krischer/pyadjoint)
   * [FLEXWIN]()
   * [FLEXWIN_ASDF]()
-  * [Pyflex]()
 
-### Adjoint Source
-  * [Pyadjoint]()
+#### Adjoint Source
+  * [Pyadjoint](https://github.com/krischer/pyadjoint)
   * [Measure_adj]()
 
-### Source Inversion
-  * [cmt3d]()
+#### Source Inversion
+  * [pycmt3d](https://github.com/wjlei1990/pycmt3d)
+  * [cmt3d](https://github.com/QuLogic/GRD_CMT3D/tree/master/cmt3d)

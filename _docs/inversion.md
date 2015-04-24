@@ -25,10 +25,10 @@ The data preprocessing contains several steps of signal processing, including op
 
 ### 3. Generate Adjoint sources
 The adjoint source is usually generated in two steps:
-  1. **Window Selection**
-      Window will be selected on a pair of observed trace and synthetic trace. More detialed information could be found in [**Window**](/SeisStar/docs/windows_selection) page.
-  2. **Adjoint Source Calculation**
-      You can choose different types of adjoint source but measurements will be only made inside those windows. Measurements includes traveltime difference, amplitude difference and waveform difference. More detailed information could be found in [**Adjoint sources**](/SeisStar/docs/adjoint_sources) page.
+  1. Window Selection(optional)
+    Window will be selected on a pair of observed trace and synthetic trace. More detialed information could be found in [**Window**](/SeisStar/docs/windows_selection) page.
+  2. Adjoint Source Calculation
+    You can choose different types of adjoint source but measurements will be only made inside those windows. Measurements includes traveltime difference, amplitude difference and waveform difference. More detailed information could be found in [**Adjoint sources**](/SeisStar/docs/adjoint_sources) page.
 
 ### 4. Adjoint simulation
 Adjoint sources are used to run the adjoint simulation. Kernels are calculated. The information about adjoint solver could be found in the [**Solver**](/SeisStar/docs/solvers) page.
