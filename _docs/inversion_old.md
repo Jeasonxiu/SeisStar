@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Inversion
-permalink: /docs/inversion/
+permalink: /docs/inversion_old/
 ---
 
 # Model Inversion Workflow
