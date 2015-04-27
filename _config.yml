@@ -1,8 +1,8 @@
 # Site settings
 name: "Seis*"
-title: A getting started page for regional-, global-, and exploration-scale seismic inversion.
+title: A getting started page for regional-, global-, and exploration-scale seismic inversion
 description: >
-  A getting started page for regional-, global-, and exploration-scale seismic inversion.
+  A getting started page for regional-, global-, and exploration-scale seismic inversion
   baseurl: "" 
 url: "http://seisstar.github.io/SeisStar/"
 

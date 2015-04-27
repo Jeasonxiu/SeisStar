@@ -1,21 +1,33 @@
 ---
 layout: docs
-title: Postprocessing
+title: Post-processing
 permalink: /docs/postprocessing/
 ---
 
-The post-processing includes several operations to kernels(the kernel are calculated by the solver). Operations include: summing, smoothing and preconditioning.
+# Post-processing
 
-After the adjoint simulations, we get kernels for diffferent events. We will conduct a series of operations to calculate the gradient. After we get the gradient, we can then enter the optimization stage.
+From the adjoint simulations, we get _sensitivity kernels_ for different events.  We must perform operations on these kernels to get the gradient of the objective function, after which we can move on to the optimization procedure.
 
-### Summing
+We define post-processing as 'operations on sensitivity kernels carried out after the adjoint simulations but before the optimization procedure.'  Such operations may include
 
-At this step, we sum all kernels(from different events) together.
+- `Summation`
+- `Projection (optional)`
+- `Regularization`
+- `Preconditioning (optional)`
 
-### Smoothing
 
-At this step, we smooth the summed up kernels.
+#### Summation
+First, contributions from individual sources must be summed to get the unprojected, unregularized gradient of the objective function. In adjoint tomography, we say that _event kernels_ are added together to produce a _misfit kernel_.
 
-### Preconditioning
 
-At this step, we precondition the kernels to approximate the gradient.
+#### Projection
+Optionally, users can convert from the numerical basis used by the solver to an alternate basis consisting of splines, pixels, harmonics, or the like.  In general we prefer to work in the in the numerical basis because it is simpler and just as effective.
+
+
+#### Regularization
+Viable regularization strategies include 'classical' regularization, based on damping or smoothing terms in the objective function, or 'ad hoc' regularization based on smoothing or clipping performed directly on the sensitivity kernels.  Extensive precedents exist for both strategies.
+
+
+#### Preconditioning
+Finally, we precondition the gradient.  Details of the preconditioning operation vary depending on what optimization algorithm is used.  Usually, our approach involves scaling the gradient by the diagonal Hessian or some approximation to it.
+

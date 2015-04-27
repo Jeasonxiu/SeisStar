@@ -1,11 +1,11 @@
 ---
-title: Hello, World!
+title: Welcom
 layout: docs
 ---
 
-# Welcome to Seis* 
+Please choose from among the headings on the right.
 
-Seis* -- read *Seis-Star* -- is an ecosystem gathering the various bits and pieces needed to set up a seismic tomography based on adjoint methods.
+
 
 <div class="alert alert-danger" role="alert">
     <h5>Work in progress</h5>

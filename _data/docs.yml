@@ -2,28 +2,26 @@
   docs:
   - inversion
   - migration
-  - source_inversion
+  - source_mechanisms
 
 - title: Building Blocks
   docs:
-  - solvers 
+  - solvers
   - preprocessing
   - postprocessing
   - optimization
-  - windows_selection
-  - adjoint_machinery
+  - quality_control
+  - workflow_management
 
-- title: Resources 
+- title: Toolsets
   docs:
-  - seismic_data_format
-  - toolsets
-  - seisflows
-  - projects
+  - regional_global
+  - exploration
 
-- title: Tutorials
+- title: Examples
   docs:
-  - doc-3
-  - doc-4
+  - example1
+  - example2
 
 - title: Meta
   docs:
