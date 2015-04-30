@@ -19,7 +19,7 @@ Seismic signal processing, is a subfield of digital signal processing (DSP). Tho
 
 Here we listed some code examples based on [Obspy](https://github.com/obspy/obspy/wiki). The python code example is pretty self-explanatory.
 
-####  1. Preparational Operations
+#### 1. Initial processing
 In this category we include simple operations such as demeaning, detrending and tapering.
 
 ```
@@ -71,7 +71,9 @@ In regional and global inversion, comparison of observations and synthetics with
 Outside of regional and global inversion, record sections may be more complex, window selection may be less stable, and other strategies for mitigating nonlinearity and nonconvexity may be preferred.
 
 ### Measuring fit between observed and synthetic seismograms
-[include text, code, and figures]
+[click to show sample code]()
+[click to show sample figures]()
+
 
 ### Generating adjoint sources
 Different kinds of adjoint sources can be calculated based on the measurements.
@@ -80,7 +82,6 @@ Different kinds of adjoint sources can be calculated based on the measurements.
   * [Pyadjoint](https://github.com/krischer/pyadjoint)
   * [Measure_adj](https://github.com/wjlei1990/seismo-MEASURE_ADJ)
 
-[include text, code, and figures]
-
-
+[click to show sample code]()
+[click to show sample figures]()
 
