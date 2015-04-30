@@ -22,13 +22,13 @@ Here we listed some code examples based on [Obspy](https://github.com/obspy/obsp
 #### 1. Initial processing
 In this category we include simple operations such as demeaning, detrending and tapering.
 
-{% highlight python %}
+```python
 from obspy import read
 st = read("/path/to/data")
 st.detrend("linear")
 st.detrend("demean")
 st.taper(max_percentage=0.05, type="hann")
-{% endhighlight %}
+```
 
 
 [include figures]
