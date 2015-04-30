@@ -17,6 +17,3 @@ kramdown:
 collections:
   docs:
     output: true
-
-gems:
-- rouge
