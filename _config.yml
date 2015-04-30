@@ -8,6 +8,7 @@ url: "http://seisstar.github.io/SeisStar/"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge 
 baseurl: /SeisStar
 
 kramdown:
