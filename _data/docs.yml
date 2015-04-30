@@ -7,10 +7,9 @@
 - title: Building Blocks
   docs:
   - solvers
-  - preprocessing
+  - preprocessing 
   - postprocessing
   - optimization
-  - quality_control
   - workflow_management
 
 - title: Toolsets

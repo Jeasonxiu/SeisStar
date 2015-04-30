@@ -10,11 +10,9 @@ permalink: /docs/regional_global/
 
 #### Pre-processing
 
-- Obspy
-- [Pyadjoint](https://github.com/krischer/pyadjoint)
+- [Obspy](https://github.com/obspy/obspy/wiki)
 - [Pyflex](https://github.com/krischer/pyadjoint)
-- [Pycmt](https://github.com/wjlei1990/pycmt3d)
-
+- [Pyadjoint](https://github.com/krischer/pyadjoint)
 
 #### Solver
 
@@ -32,6 +30,9 @@ permalink: /docs/regional_global/
 
 - [add link here]()
 
+#### CMTSource Inversion
+
+- [Pycmt](https://github.com/wjlei1990/pycmt3d)
 
 #### Legacy
 
