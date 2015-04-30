@@ -7,7 +7,7 @@ permalink: /docs/preprocessing/
 # Pre-processing
 
 We define 'pre-processing' quite broadly as 'operations on seismic traces carried out before the adjoint simulation.' Such operations may include
-- `Basic signal processing`
+- `Initial processing`
 - `Instrument response removal`
 - `Bandpass filtering`
 - `Window selection`
@@ -15,30 +15,19 @@ We define 'pre-processing' quite broadly as 'operations on seismic traces carrie
 - `Generating adjoint sources`
 
 
-#### Basic signal processing
-In this category we include simple operations such as demeaning, detrending, and tapering.
+#### Initial processing
+In this category we include simple operations such as demeaning, detrending, and tapering, which are typically carried out prior to any other operations.
 
-```
-from obspy import read
-st = read("/path/to/your/data")
-st.detrend("linear")
-st.detrend("demean")
-st.taper(max_percentage=0.05, type="hann")
-```
-[include figures]
+[click to show sample code]()
+[click to show sample figures]()
+
 
 #### Instrument response removal
 Seismic data are often provided as raw output from a seismometer.  In such cases, the response of the instrument must be removed before the data can be used in any meaningful way.
 
-```
-from obspy import read
-st = read("/path/to/your/data")
-st.remove_response(output="DISP", pre_filt=pre_filt, zero_mean=False, taper=False)
-st.detrend("linear")
-st.detrend("demean")
-st.taper(max_percentage=0.05, type="hann")
-st.interpolate(sampling_rate=sampling_rate, starttime=starttime, npts=npts)
-```
+[click to show sample code]()
+[click to show sample figures]()
+
 
 
 #### Bandpass filtering
@@ -46,7 +35,8 @@ Seismic data are usuable only within a frequency range that depends on the chara
 
 A deliberate strategy of moving from low frequencies to high frequencies over the course of an inversion can be used to ensure that updated models remain in the basis of convergence of the global miminum of the objective function.
 
-[include code and figures]
+[click to show sample code]()
+[click to show sample figures]()
 
 
 #### Window selection
@@ -54,14 +44,23 @@ In regional and global inversion, comparison of observations and synthetics with
 
 Outside of regional and global inversion, record sections may be more complex, window selection may be less stable, and other strategies for mitigating nonlinearity and nonconvexity may be preferred.
 
+[click to show sample code]()
+[click to show sample figures]()
 
-[include text, code, and figures]
 
 
 #### Measuring fit between observed and synthetic seismograms
 [include text, code, and figures]
 
+[click to show sample code]()
+[click to show sample figures]()
+
+
 
 #### Generating adjoint sources
 [include text, code, and figures]
+
+[click to show sample code]()
+[click to show sample figures]()
+
 
