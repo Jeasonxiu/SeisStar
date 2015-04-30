@@ -36,7 +36,7 @@ st.taper(max_percentage=0.05, type="hann")
 #### 2. Instrument response removal
 Seismic data are often provided as raw output from a seismometer.  In such cases, the response of the instrument must be removed before the data can be used in any meaningful way. Also, filtering will happen at the same time when we remove the instrument response.
 
-{% highlight python %}
+```python
 from obspy import read_inventory
 ## Corner frequency of filter(Hz)
 pre_filt = [0.013, 0.016, 0.033, 0.045]
@@ -49,7 +49,7 @@ st.detrend("linear")
 st.detrend("demean")
 st.taper(max_percentage=0.05, type="hann")
 st.interpolate(sampling_rate=sampling_rate, starttime=starttime, npts=npts)
-{% endhighlight %}
+```
 
 #### 3. Bandpass filtering
 For synthetic data, we need to banpass filter it into the same period band as observed data.
