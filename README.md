@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/22621/SeisStar/SeisStar.svg)](https://zenodo.org/badge/latestdoi/22621/SeisStar/SeisStar)
+
 Seis* (SeisStar)
 =================
 
